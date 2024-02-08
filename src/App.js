@@ -42,7 +42,8 @@ function App() {
   
   useEffect(() =>{ 
   getUsers();
-  },[getUsers])
+   // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[])
  
 
   const signIn= async()=>{
