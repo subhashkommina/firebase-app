@@ -42,7 +42,7 @@ function App() {
   
   useEffect(() =>{ 
   getUsers();
-  },[])
+  },[getUsers])
  
 
   const signIn= async()=>{
